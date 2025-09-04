@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2955fa1c6793175355e2cfe910b1790655562834",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-09-04T08:01:47.000Z",
       "message": "prueba de tenis el jugador uno a cero",
-      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/2955fa1c6793175355e2cfe910b1790655562834"
     },
     "stats": {
       "total": 5,
@@ -148,6 +148,25 @@
     },
     "coverage": 80,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-09-04T08:03:41.000Z",
+      "message": "prueba de tenis el resultado del jugador 1 dos a cero",
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 90,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
