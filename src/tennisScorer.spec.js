@@ -1,7 +1,7 @@
 import { TennisScorer } from "./tennisScorer.js";
 
 describe("TennisScorer", () => {
-  //INICIO
+  //PRUEBA DE INICIO 0-0
     it("game empieza con ambos en cero", () => {
         const score = new TennisScorer(); 
         const result = score.showScore(); 
@@ -44,4 +44,11 @@ describe("TennisScorer", () => {
         expect(score.showScore()).toEqual("Love - 30");
     });
 
+    it("player 2 anota tres puntos y el jugador 2 no anota 0 - 3 ", () => {
+        const score = new TennisScorer();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        expect(score.showScore()).toEqual("Love - 40");
+    });
 });
