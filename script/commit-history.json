@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a81b762319978de7000afcbac1dad89a00b3c42e",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-09-04T08:29:31.000Z",
       "message": "Prueba de desempate en caso de empate",
-      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/a81b762319978de7000afcbac1dad89a00b3c42e"
     },
     "stats": {
       "total": 18,
@@ -281,6 +281,25 @@
     },
     "coverage": 88.89,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-09-04T08:50:56.000Z",
+      "message": "Prueba de desempate en caso de empate gana player 2",
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 23,
+      "deletions": 9,
+      "date": "2025-09-04"
+    },
+    "coverage": 96.3,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

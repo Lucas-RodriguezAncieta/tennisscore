@@ -64,7 +64,7 @@ describe("TennisScorer", () => {
         expect(score.showScore()).toEqual("Deuce");
     });
 
-    //Prueba de desempate en caso de empate
+    //Prueba de desempate en caso de empate GANA PLAYER 1
     it("estando en Deuce, jugador 1 anota -> Advantage for 1", () => {
         const score = new TennisScorer();
         for (let i = 0; i < 3; i++) {
@@ -74,4 +74,17 @@ describe("TennisScorer", () => {
         score.player1Scores(); 
         expect(score.showScore()).toEqual("Advantage for 1");
     });
+
+    it("estando en Deuce, jugador 2 anota -> Advantage for 2", () => {
+        const score = new TennisScorer();
+        score.player1Scores();
+        score.player1Scores();
+        score.player1Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        expect(score.showScore()).toEqual("Advantage for 2");
+    });
+    
 });
