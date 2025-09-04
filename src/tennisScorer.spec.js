@@ -64,4 +64,14 @@ describe("TennisScorer", () => {
         expect(score.showScore()).toEqual("Deuce");
     });
 
+    //Prueba de desempate en caso de empate
+    it("estando en Deuce, jugador 1 anota -> Advantage for 1", () => {
+        const score = new TennisScorer();
+        for (let i = 0; i < 3; i++) {
+            score.player1Scores();
+            score.player2Scores();
+        }
+        score.player1Scores(); 
+        expect(score.showScore()).toEqual("Advantage for 1");
+    });
 });
