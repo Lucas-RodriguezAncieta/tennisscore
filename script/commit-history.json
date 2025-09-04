@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "19c7c4eac88cd6573c5ebb75bb77794b54319190",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-09-04T08:14:36.000Z",
       "message": "Arreglo de 1ras pruebas y 1er caso  de player 2 anota 1 punto",
-      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/19c7c4eac88cd6573c5ebb75bb77794b54319190"
     },
     "stats": {
       "total": 27,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-09-04T08:17:25.000Z",
+      "message": "2da prueba de player 2 anota 2 puntoS",
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
