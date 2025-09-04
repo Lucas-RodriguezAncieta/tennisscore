@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "328a2f7a17afe201032add79e50ac9a4aa9c3383",
     "author": "Lucas-RodriguezAncieta",
     "commit": {
       "date": "2025-09-04T08:52:52.000Z",
       "message": "Prueba definiendo ganadores",
-      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/328a2f7a17afe201032add79e50ac9a4aa9c3383"
     },
     "stats": {
       "total": 26,
       "additions": 26,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 96.55,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lucas-RodriguezAncieta",
+    "commit": {
+      "date": "2025-09-04T08:56:01.000Z",
+      "message": "Arreglo del index",
+      "url": "https://github.com/Lucas-RodriguezAncieta/tennisscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 40,
+      "deletions": 19,
       "date": "2025-09-04"
     },
     "coverage": 96.55,
